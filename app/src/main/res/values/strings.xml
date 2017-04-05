@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0751_Files</string>
+    <string name="write_file">Write file</string>
+    <string name="reade_file">Reade file</string>
+    <string name="write_file_on_sd">Write file on SD</string>
+    <string name="reade_file_from_sd">Reade file from SD</string>
+</resources>

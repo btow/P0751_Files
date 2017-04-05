@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.p0751_files.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="4dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <Button
+            android:id="@+id/btnWriteFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicOnButton"
+            android:text="@string/write_file"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/btnReadeFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicOnButton"
+            android:text="@string/reade_file"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="79dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <Button
+            android:id="@+id/btnWriteFileOnSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicOnButton"
+            android:text="@string/write_file_on_sd"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <Button
+            android:id="@+id/btnReadeFileFromSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicOnButton"
+            android:text="@string/reade_file_from_sd"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
